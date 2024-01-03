@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
 
-import Landing from "./components/layout/Landing";
+import Landing from "../../../hackfest/sihpre/SIH-2023-13/client/src/Components/layout/Landing";
 import Login from "./components/auth/login";
 
 import Register from "./components/auth/Register";
