@@ -2,13 +2,13 @@ import React, { Fragment,useEffect } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import Navbar from "./components/layout/Navbar";
-
-import Landing from "../../../hackfest/sihpre/SIH-2023-13/client/src/Components/layout/Landing";
+ 
 import Login from "./components/auth/login";
 
 import Register from "./components/auth/Register";
 import Alert from "./components/layout/Alert";
 //redux
+import Landing from "./components/layout/Landing";
 import { loadUser } from "./actions/auth";
 import { Provider } from "react-redux";
 import PrivateRoute from "./components/routing/PrivateRoute";
